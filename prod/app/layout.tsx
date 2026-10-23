@@ -19,6 +19,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Коровушкино',
   description: 'Натуральные фермерские продукты и готовые продуктовые корзины.',
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 }
 
 export default function RootLayout({
